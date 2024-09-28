@@ -9,6 +9,7 @@ public class Main
         if( scan.hasNextInt() )
         {
             age = scan.nextInt();
+            scan.nextLine();
             if( age >= 21 )
             {
                 System.out.println( "You get a wristband" );
